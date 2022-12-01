@@ -20,7 +20,7 @@ graph TD;
     Sequential_Model-->Save_best_model;
 ```
 
-After training the model, the accuracy of the dataset was realised to be . Along with validation accuracy to be .
+After training the model, the accuracy of the dataset was realised to be. Along with validation accuracy to be.
 
 After the best model has been saved, a new image is fed into the model where the model detects the cattle present in the new image. Using OpenCV, we draw bounding boxes around the detected cattle. After call the cattle have been detected, a counter is placed to keep a count on the number of bounding boxes present.
 The prpcess can be defined by the below presented flowchart.
