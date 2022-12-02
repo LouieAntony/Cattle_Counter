@@ -36,5 +36,5 @@ graph TD;
     Add_counter_according_to_number_of_boxes-->Print_Counter;
 ```
 
-Results
+## Results
 The results of the trained model has been provided in the uploaded colab notebook.
