@@ -8,6 +8,8 @@ The Cattle Counter Application invloves feeding a image or a video of cattle and
 
 ## Dataset
 Collected images from various online sources and merged them into a single dataset.
+The dataset consists of two folders. The training dataset and the validation dataset.
+The training dataset consists of 50 images of various cattle 50 images of humans to represent non-cattle along with the dataset having 25 images of various cattle 50 images of humans.
 
 ## Methodology
 
@@ -33,3 +35,6 @@ graph TD;
     Draw_box_around_detected_cattle-->Add_counter_according_to_number_of_boxes;
     Add_counter_according_to_number_of_boxes-->Print_Counter;
 ```
+
+Results
+The results of the trained model has been provided in the uploaded colab notebook.
